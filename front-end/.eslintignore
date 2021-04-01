@@ -1,0 +1,9 @@
+*.test.js
+serviceWorker.js
+setupTests.js
+.gitattributes
+.env
+coverage/*
+node_modules/
+reports/
+cypress/

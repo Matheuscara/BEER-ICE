@@ -1,0 +1,41 @@
+{
+  "name": "trybeer-back-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "debug": "nodemon index.js",
+    "start:watch": "nodemon index.js",
+    "test": "jest",
+    "test-coverage": "jest --coverage --watchAll=false",
+    "test-coverage2": "jest --coverage --watchAll --no-cache",
+    "lint": "eslint --no-inline-config --ext .js,.jsx --no-error-on-unmatched-pattern -c .eslintrc.json ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "17.1.1",
+    "@types/jest": "25.1.4",
+    "body-parser": "1.19.0",
+    "cors": "2.8.5",
+    "dotenv": "8.2.0",
+    "eslint-config-trybe-backend": "1.0.3",
+    "express": "4.17.1",
+    "express-rescue": "1.1.26",
+    "express-validator": "^6.10.0",
+    "frisby": "^2.1.3",
+    "jsonwebtoken": "8.5.1",
+    "multer": "1.4.2",
+    "mysql2": "^2.2.5"
+  },
+  "devDependencies": {
+    "eslint": "6.8.0",
+    "eslint-config-airbnb-base": "14.2.0",
+    "eslint-plugin-import": "2.22.1",
+    "jest": "25.1.0",
+    "nodemon": "2.0.4",
+    "typescript": "2.8.1"
+  }
+}
